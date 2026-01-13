@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch Demo | DroneTech</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <section class="explore-hero text-center">
+  <div class="container">
+    <h1>Watch <span>Drone Demo</span></h1>
+    <p>Experience cinematic aerial footage powered by AI stabilization, precision flight, and professional-grade camera technology.</p>
+  </div>
+</section>
+
+<!-- PREMIUM VIDEO SECTION -->
+<section class="py-5 watch-demo-section">
+  <div class="container text-center">
+
+    <!-- Video Wrapper with Glow -->
+    <div class="video-wrapper-glow position-relative mx-auto">
+      <video id="demoVideo" muted loop>
+        <source src="../video/dronevideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- Play Overlay -->
+      <div class="video-play-overlay" onclick="playDemoVideo()">
+  ▶ Watch Demo
+</div>
+
+      <!-- Glowing Halo -->
+      <div class="video-halo"></div>
+    </div>
+
+    <!-- CTA Buttons -->
+    <div class="mt-4 cta-buttons">
+      <a href="products.html" class="btn btn-primary me-3">Buy Now</a>
+      <a href="explore.html" class="btn btn-outline-light">Explore Products</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
